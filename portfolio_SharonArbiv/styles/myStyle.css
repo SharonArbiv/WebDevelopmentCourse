@@ -1,0 +1,253 @@
+body {
+    direction: rtl;
+}
+
+#container {
+    Width: 960px;
+    Margin: 0 auto;
+}
+
+/*דף הבית*/
+#backroundHome {
+    background-image: url(../images/Yellow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#center a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 12px;
+}
+
+#facebook {
+    background-image: url('../images/facebook.png');
+}
+
+#instagram {
+    background-image: url('../images/Instagram.png');
+}
+
+#facebook:hover {
+    background-image: url('../images/facebook.png');
+    transform: scale(1.1,1.1);
+}
+
+#instagram:hover {
+    background-image: url('../images/Instagram.png');
+    transform: scale(1.1,1.1);
+}
+
+#center {
+    margin-right: 420px;
+    margin-top: 170px;
+}
+/*תפריט דף הבית*/
+#menuHome ul {
+    list-style: none;
+    margin-right: 150px;
+}
+
+    #menuHome ul li {
+        display: inline-block;
+        float: right;
+        margin-right: 15px;
+    }
+
+        #menuHome ul li a {
+            display: block;
+            background-color: #000000;
+            color: white;
+            font-family: 'Gveret Levin AlefAlefAlef';
+            text-decoration: none;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+
+            #menuHome ul li a:hover {
+                background-color: #9c37ba;
+            }
+
+            #menuHome ul li a:active {
+                background-color: #c4a1e6;
+            }
+
+#title {
+    margin-top: 90px;
+    margin-right: 180px;
+}
+
+/*תפריט יתר הדפים*/
+#menuRest ul {
+    list-style: none;
+}
+
+    #menuRest ul li {
+        display: inline-block;
+        float: right;
+        margin-right: 10px;
+    }
+
+        #menuRest ul li a {
+            display: block;
+            background-color: #000000;
+            color: white;
+            font-family: 'Gveret Levin AlefAlefAlef';
+            text-decoration: none;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+
+            #menuRest ul li a:hover {
+                background-color: #9c37ba;
+            }
+
+            #menuRest ul li a:active {
+                background-color: #c4a1e6;
+            }
+
+.here a {
+    border: 2px solid yellow;
+}
+
+#linkToHome {
+    background-image: url('../images/title-01-01.png');
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 250px;
+    background-size: 220px;
+    float: right;
+    margin-top: 30px;
+}
+
+    #linkToHome:hover {
+        background-image: url('/images/title-01-01.png');
+        transform: scale(1.1,1.1);
+    }
+/* רקע דפים*/
+#backroundWeb {
+    background-color: #ba76ba;
+}
+/* יצוג ידע סווינג*/
+#swing {
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    float: right;
+    margin-left: 550px;
+}
+
+    #swing:hover {
+        background-image: url(/infographicYardensmall.jpg);
+        transform: scale(1.1,1.1);
+    }
+
+
+
+#explainSwing {
+    float: left;
+    margin-right: 250px;
+    margin-top: -300px;
+}
+
+    #explainSwing h1 {
+        font-family: 'Gveret Levin AlefAlefAlef';
+        color: yellow;
+    }
+
+    #explainSwing h2 {
+        font-family: Heebo;
+        font-weight: bold;
+    }
+
+    #explainSwing p {
+        font-family: Heebo;
+        font-weight: normal;
+    }
+
+#audio {
+    margin-right: 270px;
+    margin-top: 400px;
+    float: right;
+    position: absolute;
+}
+
+/* תקשורת חזותית נשים*/
+#women {
+    margin: 500px -140px 60px 0px;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+    #women:hover {
+        background-image: url(../images/women.jpg);
+        transform: scale(1.1,1.1);
+    }
+
+#explainWomen {
+    float: right;
+    margin-right: 280px;
+}
+
+    #explainWomen h1 {
+        font-family: 'Gveret Levin AlefAlefAlef';
+        color: yellow;
+    }
+
+    #explainWomen h2 {
+        font-family: Heebo;
+        font-weight: bold;
+        margin-bottom: -18px;
+    }
+
+    #explainWomen p {
+        font-family: Heebo;
+        font-weight: normal;
+    }
+
+#video {
+    margin: 476px 280px 0px 0px;
+    position: absolute;
+}
+/* עיצוב גרפי ישראל*/
+#israel {
+    margin: 350px -490px 60px 0px;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 330px;
+    width: 233px;
+}
+
+    #israel:hover {
+        background-image: url(../images/women.jpg);
+        transform: scale(1.1,1.1);
+    }
+
+
+
+#explainIsrael {
+    float: right;
+    margin-right: 280px;
+}
+
+    #explainIsrael h1 {
+        font-family: 'Gveret Levin AlefAlefAlef';
+        color: yellow;
+    }
+
+    #explainIsrael h2 {
+        font-family: Heebo;
+        font-weight: bold;
+        margin-bottom: -18px;
+    }
+
+    #explainIsrael p {
+        font-family: Heebo;
+        font-weight: normal;
+    }
